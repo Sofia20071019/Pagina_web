@@ -3,29 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Example</title>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="pag_facebook.css">
+    <link rel="icon" href="Imagenes/Facebook-icon.jpeg" type="image/x-icon">
 </head>
 <body>
-    <div>
-        <img src="Imagenes/Facebook.jpeg" alt="Facebook" height="70px" width="321px" >
-        <p>Te ayuda a comunicarte y compartir con las personas que forman parte de tu vida.</p>
-    </div>
-    <div class="caja">
-        <form>
-            <fieldset>
-                <input type="Nombre" placeholder="Correo electrónico o número de teléfono">
-                <br>
-                <input type="Contraseña" placeholder="Contraseña">
-                <br>
-                <div class="footer">
-                    <button class="primario"> Iniciar sesión</button>
-                    <p><a href="/signup">¿Olvidaste tu contraseña?</a></p>
-                    <button class="secundario">Crea cuenta nueva</button>
-                    
+    <div class="todo">
+        <div class="Logo">
+            <img src="Imagenes/Facebook.jpeg" alt="Facebook Logo" width="200">
+        </div>
+        <h2 class="text">Facebook te ayuda a comunicarte y compartir con las personas que forman parte de tu vida</h2>
+        <div class="caja">
+            <form>
+                <div class="cuadro">
+
                 </div>
-            </fieldset>
-        </form>
+                <input type="text" placeholder="Correo electrónico o número de teléfono">
+                <input type="password" placeholder="Contraseña">
+                <input type="submit" value="Iniciar sesión">
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <input class="submit" value="Crear cuenta">
+            </form>
+        </div>
+        <div>
+            <p><strong>Crea una página </strong>para una celebridad, una marca o un negocio</p>
+        </div>
     </div>
-    <p><strong>Crea una página</strong> para una celebridad, una marca o un negocio</p>
 </body>
 </html>
